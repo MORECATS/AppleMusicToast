@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B032A755209745BF0043FB19 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B032A754209745BF0043FB19 /* AppDelegate.m */; };
+		B032A758209745BF0043FB19 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B032A757209745BF0043FB19 /* ViewController.m */; };
+		B032A75B209745BF0043FB19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B032A759209745BF0043FB19 /* Main.storyboard */; };
+		B032A75D209745C10043FB19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B032A75C209745C10043FB19 /* Assets.xcassets */; };
+		B032A760209745C10043FB19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B032A75E209745C10043FB19 /* LaunchScreen.storyboard */; };
+		B032A763209745C10043FB19 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B032A762209745C10043FB19 /* main.m */; };
+		B032A76D209745C10043FB19 /* AppleMusicToastTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B032A76C209745C10043FB19 /* AppleMusicToastTests.m */; };
+		B032A778209745C10043FB19 /* AppleMusicToastUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B032A777209745C10043FB19 /* AppleMusicToastUITests.m */; };
+		B032A787209746520043FB19 /* AMToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = B032A786209746520043FB19 /* AMToastView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B032A769209745C10043FB19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B032A748209745BF0043FB19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B032A74F209745BF0043FB19;
+			remoteInfo = AppleMusicToast;
+		};
+		B032A774209745C10043FB19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B032A748209745BF0043FB19 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B032A74F209745BF0043FB19;
+			remoteInfo = AppleMusicToast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B032A750209745BF0043FB19 /* AppleMusicToast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleMusicToast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B032A753209745BF0043FB19 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B032A754209745BF0043FB19 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B032A756209745BF0043FB19 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B032A757209745BF0043FB19 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B032A75A209745BF0043FB19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B032A75C209745C10043FB19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B032A75F209745C10043FB19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B032A761209745C10043FB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B032A762209745C10043FB19 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B032A768209745C10043FB19 /* AppleMusicToastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleMusicToastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B032A76C209745C10043FB19 /* AppleMusicToastTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleMusicToastTests.m; sourceTree = "<group>"; };
+		B032A76E209745C10043FB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B032A773209745C10043FB19 /* AppleMusicToastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleMusicToastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B032A777209745C10043FB19 /* AppleMusicToastUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleMusicToastUITests.m; sourceTree = "<group>"; };
+		B032A779209745C10043FB19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B032A785209746520043FB19 /* AMToastView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AMToastView.h; sourceTree = "<group>"; };
+		B032A786209746520043FB19 /* AMToastView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AMToastView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B032A74D209745BF0043FB19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B032A765209745C10043FB19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B032A770209745C10043FB19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B032A747209745BF0043FB19 = {
+			isa = PBXGroup;
+			children = (
+				B032A752209745BF0043FB19 /* AppleMusicToast */,
+				B032A76B209745C10043FB19 /* AppleMusicToastTests */,
+				B032A776209745C10043FB19 /* AppleMusicToastUITests */,
+				B032A751209745BF0043FB19 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B032A751209745BF0043FB19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B032A750209745BF0043FB19 /* AppleMusicToast.app */,
+				B032A768209745C10043FB19 /* AppleMusicToastTests.xctest */,
+				B032A773209745C10043FB19 /* AppleMusicToastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B032A752209745BF0043FB19 /* AppleMusicToast */ = {
+			isa = PBXGroup;
+			children = (
+				B032A753209745BF0043FB19 /* AppDelegate.h */,
+				B032A754209745BF0043FB19 /* AppDelegate.m */,
+				B032A756209745BF0043FB19 /* ViewController.h */,
+				B032A757209745BF0043FB19 /* ViewController.m */,
+				B032A785209746520043FB19 /* AMToastView.h */,
+				B032A786209746520043FB19 /* AMToastView.m */,
+				B032A759209745BF0043FB19 /* Main.storyboard */,
+				B032A75C209745C10043FB19 /* Assets.xcassets */,
+				B032A75E209745C10043FB19 /* LaunchScreen.storyboard */,
+				B032A761209745C10043FB19 /* Info.plist */,
+				B032A762209745C10043FB19 /* main.m */,
+			);
+			path = AppleMusicToast;
+			sourceTree = "<group>";
+		};
+		B032A76B209745C10043FB19 /* AppleMusicToastTests */ = {
+			isa = PBXGroup;
+			children = (
+				B032A76C209745C10043FB19 /* AppleMusicToastTests.m */,
+				B032A76E209745C10043FB19 /* Info.plist */,
+			);
+			path = AppleMusicToastTests;
+			sourceTree = "<group>";
+		};
+		B032A776209745C10043FB19 /* AppleMusicToastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B032A777209745C10043FB19 /* AppleMusicToastUITests.m */,
+				B032A779209745C10043FB19 /* Info.plist */,
+			);
+			path = AppleMusicToastUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B032A74F209745BF0043FB19 /* AppleMusicToast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B032A77C209745C10043FB19 /* Build configuration list for PBXNativeTarget "AppleMusicToast" */;
+			buildPhases = (
+				B032A74C209745BF0043FB19 /* Sources */,
+				B032A74D209745BF0043FB19 /* Frameworks */,
+				B032A74E209745BF0043FB19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AppleMusicToast;
+			productName = AppleMusicToast;
+			productReference = B032A750209745BF0043FB19 /* AppleMusicToast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B032A767209745C10043FB19 /* AppleMusicToastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B032A77F209745C10043FB19 /* Build configuration list for PBXNativeTarget "AppleMusicToastTests" */;
+			buildPhases = (
+				B032A764209745C10043FB19 /* Sources */,
+				B032A765209745C10043FB19 /* Frameworks */,
+				B032A766209745C10043FB19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B032A76A209745C10043FB19 /* PBXTargetDependency */,
+			);
+			name = AppleMusicToastTests;
+			productName = AppleMusicToastTests;
+			productReference = B032A768209745C10043FB19 /* AppleMusicToastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B032A772209745C10043FB19 /* AppleMusicToastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B032A782209745C10043FB19 /* Build configuration list for PBXNativeTarget "AppleMusicToastUITests" */;
+			buildPhases = (
+				B032A76F209745C10043FB19 /* Sources */,
+				B032A770209745C10043FB19 /* Frameworks */,
+				B032A771209745C10043FB19 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B032A775209745C10043FB19 /* PBXTargetDependency */,
+			);
+			name = AppleMusicToastUITests;
+			productName = AppleMusicToastUITests;
+			productReference = B032A773209745C10043FB19 /* AppleMusicToastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B032A748209745BF0043FB19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "William Steven Brohawn";
+				TargetAttributes = {
+					B032A74F209745BF0043FB19 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					B032A767209745C10043FB19 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B032A74F209745BF0043FB19;
+					};
+					B032A772209745C10043FB19 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B032A74F209745BF0043FB19;
+					};
+				};
+			};
+			buildConfigurationList = B032A74B209745BF0043FB19 /* Build configuration list for PBXProject "AppleMusicToast" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B032A747209745BF0043FB19;
+			productRefGroup = B032A751209745BF0043FB19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B032A74F209745BF0043FB19 /* AppleMusicToast */,
+				B032A767209745C10043FB19 /* AppleMusicToastTests */,
+				B032A772209745C10043FB19 /* AppleMusicToastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B032A74E209745BF0043FB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B032A760209745C10043FB19 /* LaunchScreen.storyboard in Resources */,
+				B032A75D209745C10043FB19 /* Assets.xcassets in Resources */,
+				B032A75B209745BF0043FB19 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B032A766209745C10043FB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B032A771209745C10043FB19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B032A74C209745BF0043FB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B032A787209746520043FB19 /* AMToastView.m in Sources */,
+				B032A758209745BF0043FB19 /* ViewController.m in Sources */,
+				B032A763209745C10043FB19 /* main.m in Sources */,
+				B032A755209745BF0043FB19 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B032A764209745C10043FB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B032A76D209745C10043FB19 /* AppleMusicToastTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B032A76F209745C10043FB19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B032A778209745C10043FB19 /* AppleMusicToastUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B032A76A209745C10043FB19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B032A74F209745BF0043FB19 /* AppleMusicToast */;
+			targetProxy = B032A769209745C10043FB19 /* PBXContainerItemProxy */;
+		};
+		B032A775209745C10043FB19 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B032A74F209745BF0043FB19 /* AppleMusicToast */;
+			targetProxy = B032A774209745C10043FB19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B032A759209745BF0043FB19 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B032A75A209745BF0043FB19 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B032A75E209745C10043FB19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B032A75F209745C10043FB19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B032A77A209745C10043FB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B032A77B209745C10043FB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B032A77D209745C10043FB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BHGL3L4A8;
+				INFOPLIST_FILE = AppleMusicToast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brohawn.AppleMusicToast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B032A77E209745C10043FB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BHGL3L4A8;
+				INFOPLIST_FILE = AppleMusicToast/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brohawn.AppleMusicToast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B032A780209745C10043FB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BHGL3L4A8;
+				INFOPLIST_FILE = AppleMusicToastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brohawn.AppleMusicToastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleMusicToast.app/AppleMusicToast";
+			};
+			name = Debug;
+		};
+		B032A781209745C10043FB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BHGL3L4A8;
+				INFOPLIST_FILE = AppleMusicToastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brohawn.AppleMusicToastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleMusicToast.app/AppleMusicToast";
+			};
+			name = Release;
+		};
+		B032A783209745C10043FB19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BHGL3L4A8;
+				INFOPLIST_FILE = AppleMusicToastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brohawn.AppleMusicToastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppleMusicToast;
+			};
+			name = Debug;
+		};
+		B032A784209745C10043FB19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2BHGL3L4A8;
+				INFOPLIST_FILE = AppleMusicToastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.brohawn.AppleMusicToastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppleMusicToast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B032A74B209745BF0043FB19 /* Build configuration list for PBXProject "AppleMusicToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B032A77A209745C10043FB19 /* Debug */,
+				B032A77B209745C10043FB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B032A77C209745C10043FB19 /* Build configuration list for PBXNativeTarget "AppleMusicToast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B032A77D209745C10043FB19 /* Debug */,
+				B032A77E209745C10043FB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B032A77F209745C10043FB19 /* Build configuration list for PBXNativeTarget "AppleMusicToastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B032A780209745C10043FB19 /* Debug */,
+				B032A781209745C10043FB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B032A782209745C10043FB19 /* Build configuration list for PBXNativeTarget "AppleMusicToastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B032A783209745C10043FB19 /* Debug */,
+				B032A784209745C10043FB19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B032A748209745BF0043FB19 /* Project object */;
+}
