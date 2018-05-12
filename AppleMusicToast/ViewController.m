@@ -38,20 +38,6 @@
         [aButton.centerYAnchor constraintEqualToAnchor:self.view.centerYAnchor].active = YES;
         aButton;
     })];
-    
-    UIGraphicsBeginImageContextWithOptions(CGSizeMake(630, 420), NO, 1.0f);
-    {
-        UIBezierPath *path = [UIBezierPath smoothRoundedRect:CGRectMake(0, 0, 630, 420) cornerRadius:44.0f];
-        [UIColor.blackColor setFill];
-        [path fill];
-        
-        UIImage *image = UIGraphicsGetImageFromCurrentImageContext();
-        
-        BOOL saved = [UIImagePNGRepresentation(image) writeToFile:@"/Users/caine/Downloads/Rect.png"
-                                                       atomically:YES];
-        NSLog(@"Rectsaved: %d", saved);
-    }
-    UIGraphicsEndImageContext();
 }
 
 - (void)viewDidLayoutSubviews
